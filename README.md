@@ -55,8 +55,3 @@ By default the plugin will only grab `.jpg` images. This can be changed in the `
 private $image_path = 'content/images'; // the path to the folder you want to use for loading the images
 private $image_ext = '.jpg'; // the extension of the files you are looking for
 ```
-
-### Use Cases
-
-This plugin really just reads images and outputs them in an array to be used on the front end. You could use any slider library that you want really. I like Swipe because I just find it to be the best since there is no jQuery required and it works amazingly well on mobile devices.
-
