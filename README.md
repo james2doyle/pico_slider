@@ -1,7 +1,7 @@
 pico_slider
 ===========
 
-Create sliders(image lists) inside the Pico CMS. Uses Swipe.js slider.
+Create sliders(image lists) inside the [Pico CMS](http://pico.dev7studios.com/). Uses Swipe.js slider.
 
 ### Use Cases
 
