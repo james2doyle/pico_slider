@@ -13,7 +13,7 @@ This plugin really just reads images and outputs them in an array to be used on 
 * Do not change the name. Leave it as `pico_slider`.
 * Download [Swipe](https://github.com/bradbirdsall/Swipe).
 * Setup Swipe in your theme.
-* Create a folder inside content called `images`.
+* Create a folder inside `content` called `images`. Path would be `{pico_root}/content/images/`.
 * Inside that folder, drop all the images you want to use. (structure can be changed, defaut is `.jpg` images)
 * Add the markup into your theme or mardown file
 * Have fun!
