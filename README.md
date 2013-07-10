@@ -20,6 +20,8 @@ This plugin really just reads images and outputs them in an array to be used on 
 
 ### Markup
 
+This is specific to swipe. You can do whatever you like for your slider library.
+
 ```html
 <div id="slider" class='swipe'>
   <div class="swipe-wrap">
@@ -34,12 +36,14 @@ This plugin really just reads images and outputs them in an array to be used on 
 
 ### Image properties
 
+Here is what is stored in each image item.
+
 ```php
 $image = array(
-'name' = 'mylittlepony', // basically just the file name without the extension
-'width' = 900,
-'height' = 600,
-'url' = 'content/image/mylittlepony.jpg' // basically just the base_url + the image url
+  'name' = 'mylittlepony', // basically just the file name without the extension
+  'width' = 900,
+  'height' = 600,
+  'url' = 'content/image/mylittlepony.jpg' // basically just the base_url + the image url
 );
 ```
 
