@@ -1,7 +1,7 @@
 pico_slider
 ===========
 
-Create sliders(image lists) inside the [Pico CMS](http://pico.dev7studios.com/). Uses Swipe.js slider.
+Create sliders(image lists) inside the [Pico CMS](http://pico.dev7studios.com/).
 
 ### Use Cases
 
@@ -11,8 +11,8 @@ This plugin really just reads images and outputs them in an array to be used on 
 
 * Clone this repo into your plugins folder.
 * Do not change the name. Leave it as `pico_slider`.
-* Download [Swipe](https://github.com/bradbirdsall/Swipe).
-* Setup Swipe in your theme.
+* Download [Swipe](https://github.com/bradbirdsall/Swipe) or some other slider lib.
+* Setup the sliders JS and CSS files.
 * Create a folder inside `content` called `images`. Path would be `{pico_root}/content/images/`.
 * Inside that folder, drop all the images you want to use. (structure can be changed, defaut is `.jpg` images)
 * Add the markup into your theme or mardown file
@@ -20,7 +20,7 @@ This plugin really just reads images and outputs them in an array to be used on 
 
 ### Markup
 
-This is specific to swipe. You can do whatever you like for your slider library.
+This is specific to [Swipe](https://github.com/bradbirdsall/Swipe). You can do whatever you like for your slider library.
 
 ```html
 <div id="slider" class='swipe'>
